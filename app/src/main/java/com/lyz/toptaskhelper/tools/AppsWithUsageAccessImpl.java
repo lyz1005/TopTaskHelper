@@ -12,7 +12,6 @@ class AppsWithUsageAccessImpl {
 	/**
 	 * 获得最近的应用统计数据
 	 *   不需要考虑新版本问题，方法中低版本默认返回null
-	 * @param duration 持续在这段时间内
 	 * @return
 	 * return null 持续在 duration这个时间内应用没有更新 或者新版本手机 
 	 */
